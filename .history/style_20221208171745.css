@@ -1,0 +1,27 @@
+body {
+    background: #a0344d;
+    background: linear-gradient(to right, #a0344d, #4a1952);
+  }
+  
+  .card-img-left {
+    width: 45%;
+    /* Link to your background image using in the property below! */
+    background: scroll center url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.moncallcenter.ma%2Fpaul-et-jose&psig=AOvVaw0UpoG5vGDTvs2b1d9liz5Z&ust=1670606128747000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCJCdq_jC6vsCFQAAAAAdAAAAABAO');
+    background-size: cover;
+  }
+  
+  .btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+  }
+  
+  .btn-google {
+    color: white !important;
+    background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+    color: white !important;
+    background-color: #3b5998;
+  }
