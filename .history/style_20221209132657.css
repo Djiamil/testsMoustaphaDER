@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+:root{
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+body {
+    background: #a0344d;
+    background: linear-gradient(to right, #a0344d, #4a1952);
+  }
+  
+  .card-img-left {
+    width: 45%;
+    background: scroll center url('./image/ins.jpg');
+    background-size: cover;
+  }
+  
+ 
+  .btn-facebook {
+    color: white !important;
+    background-color: #3a5798;
+  }
+  .form-floating input:focus{
+    outline: 0;
+    border-color: #777;
+}
+
+.form-floating.success input{
+    border-color: var(--success-color);
+    margin: 2rem;
+}
+
+.form-floating.error input{
+    border-color: var(--error-color);
+}
+
+  .form-floating small{
+    color: var(--error-color);
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-floating.error small{
+    visibility: visible;
+}
+button{
+  position:relative;
+  margin-top: 0.1rem;
+}
+#btninscription{
+  background-color: #762a51;
+  color: white;
+}
+#eyes{
+  float: right;
+  position:absolute;
+  margin-top: 4%;
+  margin-left: 85%;
+  width: 3rem;
+  height: 2rem;
+}
+#eyes1{
+  float: right;
+  position:absolute;
+  margin-top: 4%;
+  margin-left: 85%;
+  width: 3rem;
+  height: 2rem;
+}
+#eyes {cursor: -webkit-grab; cursor: grab;}
